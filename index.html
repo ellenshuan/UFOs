@@ -32,21 +32,44 @@
 
 
         </p>
+        <br>
       </div>
+      
+
+      <!-- Filter -->
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
-            <form class="bg-dark">
-              <p>Filter Search</p>
-              <ul class="bg-dark">
-                  <label for="date">Enter Date</label>
-                  <input type="text" placeholder="1/10/2010" id="datetime" />
-                   <button id="filter-btn" type="button" class="btn-dark">
-                     Filter Table
-                   </button>
-              </ul>
+            <div class= "filters">
+              <form class="bg-dark">
+                <h1>Filter Search</h1>
+                <ul class="list-group">
+                  <li class = "list-group-item bg-dark">
+                    <label for="datetime">Enter a Date</label>
+                    <input type="text" class="form-control" placeholder="1/10/2010" id="datetime" />
+                  </li>
+                  <li class = "list-group-item bg-dark">
+                    <label for="city">Enter a City</label>
+                    <input type="text" id="city" class="form-control" placeholder="Benton" />
+                  </li>
+                  <li class = "list-group-item bg-dark">
+                    <label for="state">Enter a State</label>
+                    <input type="text" id="state" class="form-control" placeholder="ca" />
+                  </li>
+                  <li class = "list-group-item bg-dark">
+                    <label for="country">Enter a Country</label>
+                    <input type="text" id="country" class="form-control" placeholder="United States" />
+                  </li>
+                  <li class = "list-group-item bg-dark">
+                    <label for="shape">Enter a Shape</label>
+                    <input type="text" id="shape" class="form-control" placeholder="triangle" />
+                  </li>
+                </ul>
              </form>
           </div>
+        </div>
+
+        <!-- Table -->
           <div class="col-md-9">
             <table class="table table-striped">
               <thead>
@@ -66,9 +89,8 @@
         </div>
       </div>
     </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-  <script src="static/js/data.js"></script>
-  <script src="static/js/app.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app_1.js"></script>
+  </body>
 </html>
