@@ -14,6 +14,7 @@ Title and Paragraph
 ![](./Resources/header.png)
 
 Filter Search Bar
+
 ![](./Resources/filter_search.png)
 
 Data Results 
